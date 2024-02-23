@@ -1,6 +1,6 @@
 import 'reflect-metadata';
 import { container } from 'tsyringe';
-import { LambdaHandler } from '../controller/LambdaHandler';
+import { LambdaHandler } from './src/controller/LambdaHandler';
 import { MensagemUsercase } from './application/usercase/MensagemUsercase';
 
 // Registrar dependências no contêiner do tsyringe
